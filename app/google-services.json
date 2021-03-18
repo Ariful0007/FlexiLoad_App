@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "116915351750",
+    "firebase_url": "https://flexiloadapp-default-rtdb.firebaseio.com",
+    "project_id": "flexiloadapp",
+    "storage_bucket": "flexiloadapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116915351750:android:61e3e7d68df3e1087527c7",
+        "android_client_info": {
+          "package_name": "com.example.flexiload_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "116915351750-t3cq2fp4ul71f701mrkl0mecrjkj72ag.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flexiload_app",
+            "certificate_hash": "f8e75969bdc1f63a21314592076c6266bf022b67"
+          }
+        },
+        {
+          "client_id": "116915351750-38krgnj7srrlu1l34qbppdsutv3ve51f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCN2c8Vfg9Db2nujJqrSfJ43Mbk6xI5ImE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "116915351750-38krgnj7srrlu1l34qbppdsutv3ve51f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

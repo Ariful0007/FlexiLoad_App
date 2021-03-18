@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/profile_layout"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+    <RelativeLayout
+        android:padding="@dimen/space_10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_5dp"
+            android:layout_centerHorizontal="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/profile_image" />
+
+        <TextView
+            android:id="@+id/profile_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_10dp"
+            android:fontFamily="@font/open_sans_bold"
+            android:text="About User"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/profile_image"
+            android:textColor="@color/colorAccent2"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/profile_image" />
+        <ScrollView
+            android:layout_marginTop="@dimen/space_5dp"
+            android:layout_below="@id/profile_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:layout_marginTop="@dimen/space_5dp"
+                android:layout_below="@id/profile_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Coin"
+                    android:gravity="left"
+                    android:textColor="@color/colorAccent2"
+                    android:textSize="19dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="@dimen/space_20dp"
+                    android:layout_marginRight="50dp"
+                    android:id="@+id/s"
+                    >
+                </TextView>
+                <TextView
+                    android:layout_below="@+id/Email_Log"
+                    android:layout_marginTop="@dimen/space_10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/text_input_bg"
+                    android:id="@+id/profile_usernmae"
+                    android:maxLength="25"
+                    android:inputType="numberDecimal"
+
+                    android:maxLines="1"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:hint="25"
+                    android:gravity="center_vertical"
+                    android:textColor="#000"
+                    android:textSize="@dimen/space_15dp"
+
+                    >
+
+                </TextView>
+                //user
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="User name"
+                    android:gravity="left"
+                    android:textColor="@color/colorAccent2"
+                    android:textSize="19dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="@dimen/space_20dp"
+                    android:layout_marginRight="50dp"
+                    android:id="@+id/s1"
+                    >
+                </TextView>
+                <TextView
+                    android:layout_below="@+id/Email_Log"
+                    android:layout_marginTop="@dimen/space_10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/space_50dp"
+                    android:background="@drawable/text_input_bg"
+                    android:id="@+id/profile_activation"
+                    android:maxLength="500"
+                    android:inputType="phone"
+
+                    android:maxLines="1"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:hint="jazk"
+                    android:gravity="center_vertical"
+                    android:textColor="#000"
+                    android:textSize="@dimen/space_15dp"
+
+                    >
+
+                </TextView>
+                //user
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Phone Number"
+                    android:gravity="left"
+                    android:textColor="@color/colorAccent2"
+                    android:textSize="19dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="@dimen/space_20dp"
+                    android:layout_marginRight="50dp"
+                    android:id="@+id/s3"
+                    >
+                </TextView>
+                <TextView
+                    android:layout_below="@+id/Email_Log"
+                    android:layout_marginTop="@dimen/space_10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/space_50dp"
+                    android:background="@drawable/text_input_bg"
+                    android:id="@+id/profile_activation1"
+                    android:maxLength="11"
+                    android:inputType="phone"
+
+                    android:maxLines="1"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:hint="016987562"
+                    android:gravity="center_vertical"
+                    android:textColor="#000"
+
+                    android:textSize="@dimen/space_15dp"
+
+                    >
+
+                </TextView>
+                <Button
+                    android:id="@+id/gotomain"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/space_50dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="@dimen/space_20dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginBottom="32dp"
+                    android:background="@drawable/primary_btn_bg"
+                    android:fontFamily="@font/open_sans_bold"
+                    android:text="Back to main"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="16sp"
+
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</RelativeLayout>

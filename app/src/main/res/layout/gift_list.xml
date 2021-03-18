@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="@dimen/space_20dp"
+    android:layout_marginLeft="@dimen/space_20dp"
+    android:layout_marginRight="@dimen/space_20dp"
+    app:cardCornerRadius="@dimen/space_5dp"
+    app:cardBackgroundColor="@color/gray"
+    android:layout_height="200dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_alignParentRight="true"
+            android:layout_width="match_parent"
+            android:layout_marginRight="@dimen/space_20dp"
+            android:textSize="17dp"
+            android:padding="@dimen/space_10dp"
+            android:layout_height="wrap_content"
+            android:text="2555"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:fontFamily="@font/open_sans_bold"
+            android:textColor="#004D40"
+            android:gravity="center_horizontal"></TextView>
+        //drivername
+        <TextView
+            android:layout_marginTop="@dimen/space_5dp"
+            android:layout_below="@id/text2"
+            android:id="@+id/text4"
+            android:layout_alignParentRight="true"
+            android:layout_width="match_parent"
+            android:layout_marginRight="@dimen/space_20dp"
+            android:textSize="17dp"
+            android:padding="@dimen/space_10dp"
+            android:layout_height="wrap_content"
+            android:text="Driver Code"
+            android:textStyle="bold"
+            android:fontFamily="@font/open_sans_bold"
+            android:textAlignment="inherit"
+            android:textColor="#321911"
+            android:gravity="center_horizontal"></TextView>
+        //3
+        //drivername
+        <TextView
+            android:layout_marginTop="@dimen/space_5dp"
+            android:layout_below="@id/text4"
+            android:id="@+id/text6"
+            android:layout_alignParentRight="true"
+            android:layout_width="match_parent"
+            android:layout_marginRight="@dimen/space_20dp"
+            android:textSize="17dp"
+            android:padding="@dimen/space_10dp"
+            android:layout_height="wrap_content"
+            android:text="Driver Code"
+            android:textStyle="bold"
+            android:fontFamily="@font/open_sans_bold"
+            android:textAlignment="gravity"
+            android:textColor="#321911"
+            android:gravity="center_horizontal"></TextView>
+        //drivername
+        <TextView
+            android:layout_marginTop="@dimen/space_5dp"
+            android:layout_below="@id/text6"
+            android:id="@+id/text7"
+            android:layout_alignParentRight="true"
+            android:layout_width="match_parent"
+            android:layout_marginRight="@dimen/space_20dp"
+            android:textSize="17dp"
+            android:padding="@dimen/space_10dp"
+            android:layout_height="wrap_content"
+            android:text="Driver Code"
+            android:textStyle="bold"
+            android:fontFamily="@font/open_sans_bold"
+            android:textAlignment="gravity"
+            android:textColor="#321911"
+            android:gravity="center_horizontal"></TextView>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

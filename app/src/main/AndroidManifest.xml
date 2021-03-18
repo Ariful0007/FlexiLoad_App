@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.flexiload_app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".A_history"></activity>
+        <activity android:name=".B_history" />
+        <activity android:name=".Grammen_History" />
+        <activity android:name=".Gift_History" />
+        <activity android:name=".Add_Coin" />
+        <activity android:name=".Offer_Details" />
+        <activity android:name=".Airtell" />
+        <activity android:name=".Robi" />
+        <activity android:name=".Add_offer" />
+        <activity android:name=".Banglalink" />
+        <activity android:name=".Grammen" />
+        <activity android:name=".Sim_CardList" />
+        <activity android:name=".Buy_Coin" />
+        <activity android:name=".Profile" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity android:name=".Add_User" />
+        <activity android:name=".User" />
+        <activity android:name=".Admin_panel" />
+        <activity android:name=".Client_SMS" />
+        <activity android:name=".Login_Page" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
